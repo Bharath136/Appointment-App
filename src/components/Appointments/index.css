@@ -1,0 +1,128 @@
+.container {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+}
+.appointment-form-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #b5b7c4;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .appointment-form-container {
+    flex-direction: column;
+  }
+}
+.appointment-card-container {
+  width: 80%;
+  background-color: white;
+  padding: 40px 60px;
+  border-radius: 12px;
+}
+@media screen and (max-width: 768px) {
+  .appointment-card-container {
+    margin: auto;
+    box-sizing: border-box;
+    padding: 40px 18px;
+    width: 100%;
+  }
+}
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .appointment-form {
+    order: 2;
+  }
+}
+.title-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.title-input {
+  padding: 6px 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 3px;
+}
+.label {
+  color: #b5b7c4;
+}
+.date-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.date-input {
+  padding: 6px 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 3px;
+}
+@media screen and (max-width: 768px) {
+  .date-input {
+    width: 100%;
+  }
+}
+.submit-btn {
+  height: 32px;
+  background-color: #8b5cf6;
+  border: 0;
+  outline: none;
+  color: white;
+  width: 60px;
+  border-radius: 6px;
+}
+.appointments-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.starred-button {
+  height: 26px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  border-radius: 18px;
+  width: 80px;
+}
+.heading {
+  font-size: 22px;
+  color: #171f46;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+.appointments-heading {
+  font-size: 22px;
+  color: #171f46;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .appointments-heading {
+    font-size: 48px;
+  }
+}
+
+.appointment-list {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.back-ground {
+  background-color: #9897f0;
+  color: white;
+}
